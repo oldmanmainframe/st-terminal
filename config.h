@@ -1,4 +1,4 @@
-/* See LICENSE file for copyright and license details. */
+/* sEE liCENSE file for copyright and license details. */
  
 /*
  * appearance
@@ -120,8 +120,26 @@ static const char *colorname[] = {
  * foreground, background, cursor, reverse cursor
  * MikeF: binaries named st<fg><bg>
  */
+/* // default st
+unsigned int defaultfg = 15;
+unsigned int defaultbg = 0;
+/**/
+/* // black on light yellow stby
+unsigned int defaultfg = 0;
+unsigned int defaultbg = 258;
+/**/
+/* // springgreen on gray stsg
+unsigned int defaultfg = 260;
+unsigned int defaultbg = 259;
+/**/
+/* // white on gray stwg
 unsigned int defaultfg = 15;
 unsigned int defaultbg = 259;
+/**/
+// green on black stgb
+unsigned int defaultfg = 10;
+unsigned int defaultbg = 0;
+/**/
 static unsigned int defaultcs = 256;
 static unsigned int defaultrcs = 257;
  
