@@ -1,3 +1,4 @@
+/* Test comment for testing */
 /* See LICENSE for license details. */
 #include <ctype.h>
 #include <errno.h>
